@@ -1,0 +1,21 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #0799d3;
+    border-radius: 50%;
+    animation-name: jump;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+    from {
+        top: 0;
+    }
+    to {
+        bottom: 50px;
+    }
+    to {
+        top: 100px;
+    }
+}
